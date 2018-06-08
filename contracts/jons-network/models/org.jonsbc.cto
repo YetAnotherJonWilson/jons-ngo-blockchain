@@ -30,6 +30,10 @@ asset SampleAsset identified by assetId {
   o String value
 }
 
+asset JonsAsset extends SampleAsset {
+
+}
+
 transaction SampleTransaction {
   --> SampleAsset asset
   o String newValue
